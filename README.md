@@ -41,6 +41,22 @@ Troubleshot and resolved:
 
 ## Technologies
 
+
+
+## Screenshots
+
+### Microsoft Entra ID Provisioning
+
+This screenshot shows the successful user provisioning workflow between Microsoft Entra ID and the custom SCIM service. The user was assigned through group-based application assignment, evaluated as in scope, matched between the source and target system, and successfully provisioned through the SCIM integration.
+
+### FastAPI SCIM Endpoints
+
+This screenshot shows the FastAPI documentation for the implemented SCIM 2.0 endpoints. These endpoints allow Microsoft Entra ID to communicate with the custom identity service to perform user lifecycle operations, including creating, retrieving, and updating users and groups.
+
+### API / Terminal Logs
+
+This screenshot shows the FastAPI server logs during SCIM provisioning tests. The logs were used to validate communication between Microsoft Entra ID and the SCIM service, monitor API requests, and troubleshoot integration issues by analyzing HTTP responses and status codes.
+
 - Python
 - FastAPI
 - Microsoft Entra ID
